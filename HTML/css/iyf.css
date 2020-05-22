@@ -1,8 +1,31 @@
 h1
 {
-  color:green;
-}
-body{
-  color:magenta;
+  background: rgb(96,63,163);
 
+}
+
+section{
+  background: #2BCEE7;
+  color: rgb(96,63,163);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  text-align: center;
+  padding: 8px;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
