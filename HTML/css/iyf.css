@@ -1,21 +1,24 @@
-h1
-{
-  background: rgb(96,63,163);
+
+body{
+  background: #DBD7F3;
+  margin:2%;
 
 }
-
-section{
-  background: #2BCEE7;
-  color: rgb(96,63,163);
+header{
+  background:#000000;
+  margin:auto;
+  padding: 20px;
+  text-align: right;
 }
-
-table {
-  border-collapse: collapse;
-  width: 100%;
+h1{
+  color:#FFFFFF;
+  font-family:"Times New Roman";
+  font-size:300%;
 }
-td {
-  text-align: center;
-  padding: 8px;
+nav{
+  font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 100%;
 }
 a:link, a:visited {
   background-color: #f44336;
@@ -25,7 +28,31 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover, a:active {
   background-color: red;
+}
+h2
+{
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background: #000000;
+color:#FFFFFF;
+}
+
+table {
+  margin-top: 20px;
+  padding-top: 30px;
+  background: #000000;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+td {
+  text-align: center;
+  padding: 8px;
+}
+#text{
+  color: #FFFFFF;
+  font-size: 20px;
 }
